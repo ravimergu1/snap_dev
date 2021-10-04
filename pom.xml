@@ -250,26 +250,16 @@
             (and become accessible on the Snaplex/JCC after deployment).
         -->
         <snap.classes>
-            com.snaplogic.snaps.CharacterCounter,
-            com.snaplogic.snaps.CurrencyConverter,
-            com.snaplogic.snaps.DocConsumer,
-            com.snaplogic.snaps.DocGenerator,
-            com.snaplogic.snaps.PropertyTypes,
-            com.snaplogic.snaps.SchemaExample,
-            com.snaplogic.snaps.SingleDocGenerator,
-            com.snaplogic.snaps.SnapWithAccount,
-            com.snaplogic.snaps.Suggest,
-            com.snaplogic.snaps.TwoInputs,
-            com.snaplogic.snaps.TwoInputsTwoOutputs,
             com.snaplogic.snaps.AadharGenerator,
-            com.snaplogic.snaps.StringProcessor
+            com.snaplogic.snaps.StringProcessor,
+            com.snaplogic.snaps.GradeCalculator
         </snap.classes>
         <!-- This identifies the classes which represent the actual Accounts
             (and become accessible on the Snaplex/JCC after deployment).
         -->
-        <account.classes>
+        <!--<account.classes>
             com.snaplogic.snaps.ExampleAccount
-        </account.classes>
+        </account.classes>-->
         <!-- Enter your cc key prefix from keys.properties -->
         <key.prefix>cc</key.prefix>
         <!-- This is the user name that is authorized to deploy Snap Packs-->
