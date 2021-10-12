@@ -252,7 +252,10 @@
         <snap.classes>
             com.snaplogic.snaps.AadharGenerator,
             com.snaplogic.snaps.StringProcessor,
-            com.snaplogic.snaps.GradeCalculator
+            com.snaplogic.snaps.GradeCalculator,
+            com.snaplogic.snaps.FileOrDirectoryReadODelete,
+            com.snaplogic.snaps.PropertyTypes,
+            com.snaplogic.snaps.ExpressionSnap
         </snap.classes>
         <!-- This identifies the classes which represent the actual Accounts
             (and become accessible on the Snaplex/JCC after deployment).
