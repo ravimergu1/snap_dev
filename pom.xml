@@ -255,7 +255,8 @@
             com.snaplogic.snaps.GradeCalculator,
             com.snaplogic.snaps.FileOrDirectoryReadODelete,
             com.snaplogic.snaps.PropertyTypes,
-            com.snaplogic.snaps.ExpressionSnap
+            com.snaplogic.snaps.ExpressionSnap,
+            com.snaplogic.snaps.LookupSnap
         </snap.classes>
         <!-- This identifies the classes which represent the actual Accounts
             (and become accessible on the Snaplex/JCC after deployment).
