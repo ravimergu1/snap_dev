@@ -257,7 +257,8 @@
             com.snaplogic.snaps.PropertyTypes,
             com.snaplogic.snaps.ExpressionSnap,
             com.snaplogic.snaps.LookupSnap,
-            com.snaplogic.snaps.InputSchemaSnap
+            com.snaplogic.snaps.InputSchemaSnap,
+            com.snaplogic.snaps.SuggestionsSnap
         </snap.classes>
         <!-- This identifies the classes which represent the actual Accounts
             (and become accessible on the Snaplex/JCC after deployment).
