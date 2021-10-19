@@ -1,5 +1,6 @@
 package com.snaplogic.snaps;
 
+import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
 import com.snaplogic.api.ConfigurationException;
 import com.snaplogic.common.SnapType;
@@ -12,6 +13,7 @@ import com.snaplogic.snap.view.InputView;
 import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.Set;
 
 
@@ -29,6 +31,11 @@ public class ExpressionSnap extends SimpleSnap {
     private static final String SUPPORT = "SUPPORT";
     private static final String PS = "PS";
     private static final Set<String> ORG_TYPE = ImmutableSet.of(DEV, QA, DOC, SUPPORT, PS);
+    private static final Map<String, String> types = ImmutableMap.of(
+            "a" ,"b",
+            "b","b"
+
+    );
     private String orgId;
     private String orgName;
     private String orgAddress;
